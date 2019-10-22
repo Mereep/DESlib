@@ -11,6 +11,7 @@ from .mcb import MCB
 from .mla import MLA
 from .ola import OLA
 from .rank import Rank
+from .gon import GON
 
 __all__ = ['BaseDCS',
            'APosteriori',
@@ -19,4 +20,5 @@ __all__ = ['BaseDCS',
            'OLA',
            'MLA',
            'MCB',
-           'Rank']
+           'Rank',
+           'GON']
